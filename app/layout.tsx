@@ -6,8 +6,8 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Lesly Predictor",
-  description: "Created by lesly",
-  generator: "leslylezoo",
+  description: "Lesly Predictor",
+  generator: "Next.js",
 }
 
 export default function RootLayout({
