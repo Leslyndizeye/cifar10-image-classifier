@@ -42,7 +42,7 @@ export default function MLPipelineDashboard() {
   useEffect(() => {
     const fetchModelInfo = async () => {
       try {
-        const response = await fetch("http://localhost:8000/model/info")
+        const response = await fetch("https://cifar10-image-classifier-4.onrender.com/model/info")
         if (!response.ok) {
           throw new Error("Failed to fetch model info")
         }
@@ -143,7 +143,7 @@ export default function MLPipelineDashboard() {
     formData.append("file", selectedFile)
 
     try {
-      const response = await fetch("http://localhost:8000/predict", {
+      const response = await fetch("https://cifar10-image-classifier-4.onrender.com/predict", {
         method: "POST",
         body: formData,
       })
@@ -198,7 +198,7 @@ export default function MLPipelineDashboard() {
         uploadFormData.append("files", file)
       })
 
-      const uploadResponse = await fetch("http://localhost:8000/upload/data", {
+      const uploadResponse = await fetch("https://cifar10-image-classifier-4.onrender.com/upload/data", {
         method: "POST",
         body: uploadFormData,
       })
@@ -218,7 +218,7 @@ export default function MLPipelineDashboard() {
 
       setRetrainProgress(30) // Update progress after upload
       // Step 2: Trigger retraining with the actual batch_id
-      const retrainResponse = await fetch(`http://localhost:8000/retrain?batch_id=${batchId}`, {
+      const retrainResponse = await fetch(`https://cifar10-image-classifier-4.onrender.com/retrain?batch_id=${batchId}`, {
         method: "POST",
       })
 
@@ -229,7 +229,7 @@ export default function MLPipelineDashboard() {
 
       // Poll for retraining status
       const pollInterval = setInterval(async () => {
-        const statusResponse = await fetch("http://localhost:8000/retrain/status")
+        const statusResponse = await fetch("https://cifar10-image-classifier-4.onrender.com/retrain/status")
         const statusData = await statusResponse.json()
 
         // Adjust progress to reflect overall process (upload + retraining)
