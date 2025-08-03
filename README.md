@@ -69,7 +69,8 @@ npm run dev
 cd scripts
 locust -f locust_load_test.py --host http://localhost:8000
 ```
-``Here's a sample output from the load testing:``
+``Here are results from Flood Request Simulation: LOCUST``
+
 ![Locust Load Test Results](locust_image.png)
 
 * Monitoring Dashboard: [http://localhost:8089](http://localhost:8089)
