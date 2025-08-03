@@ -128,9 +128,9 @@ In the `notebook/cifar10_model_dev.ipynb`:
 
 ---
 
-## 📹 Video Demo
+## 📹 Video Demo (Link)
 
-📺 [YouTube Link](https://youtu.be/your-demo-link)
+📺 [YouTube Link][(https://youtu.be/ebuoJ0lXmtA)]
 
 ---
 
