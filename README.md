@@ -130,7 +130,7 @@ In the `notebook/cifar10_model_dev.ipynb`:
 
 ## 📹 Video Demo (Link)
 
-📺 [YouTube Link][(https://youtu.be/ebuoJ0lXmtA)]
+📺 https://youtu.be/ebuoJ0lXmtA
 
 ---
 
