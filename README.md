@@ -1,1 +1,1 @@
-# Cifar10-image-classifier
+# cifar10-image-classifier
