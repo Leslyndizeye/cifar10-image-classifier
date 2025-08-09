@@ -137,6 +137,7 @@ In the `notebook/cifar10_model_dev.ipynb`:
 ## 🔗 Links
 
 * 🌐 App: [https://lesly-image-classifier-5b56.vercel.app](https://lesly-image-classifier-5b56.vercel.app)
+* Api : [https://cifar10-image-classifier-4.onrender.com](https://cifar10-image-classifier-4.onrender.com)
 * 📂 GitHub: [https://github.com/Leslyndizeye/cifar10-image-classifier](https://github.com/Leslyndizeye/cifar10-image-classifier)
 
 ---
