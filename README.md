@@ -1,12 +1,12 @@
 #  Lesly Ndizeye Predictor - CIFAR-10 Image Classification Pipeline
 
-## 🎯 Objective
+## Objective
 
-To demonstrate the full Machine Learning lifecycle using image data (CIFAR-10), including model training, evaluation, deployment, retraining, and monitoring, all wrapped with an API and UI for real-time usage.
+To demonstrate the full Machine Learning lifecycle using image data (CIFAR-10), including model training, evaluation, deployment, retraining, and monitoring, all wrapped with an API and UI for real-time predictions.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 lesly-cifar10-image-classifier/
@@ -33,7 +33,7 @@ lesly-cifar10-image-classifier/
 
 ---
 
-## 🚀 How to Set Up
+## How to Set Up
 
 ### 1. Clone the Repository
 
@@ -69,7 +69,7 @@ npm run dev
 cd scripts
 locust -f locust_load_test.py --host http://localhost:8000
 ```
-``Here are results from Flood Request Simulation: LOCUST``
+`Here are results from Flood Request Simulation: LOCUST`
 
 ![Locust Load Test Results](locust_image.png)
 
@@ -77,38 +77,38 @@ locust -f locust_load_test.py --host http://localhost:8000
 
 ---
 
-## 🧪 Features & Functionalities
+## Features & Functionalities
 
-### ✅ Model Prediction
+### Model Prediction
 
 * Upload an image
 * Predict its class (CIFAR-10)
 * Real-time prediction results
 
-### 📈 Visualizations
+### Visualizations
 
 * Class distribution
 * Confidence scores
 * Model performance metrics
 
-### 📤 Upload Data
+### Upload Data
 
 * Bulk upload up to 1000 images for retraining
 
-### 🔁 Model Retraining
+### Model Retraining
 
 * Trigger retraining after upload
 * Retrains using pseudo-labels
 * Saves new model with timestamp
 
-### 📊 Monitoring (Locust)
+### Monitoring (Locust)
 
 * Simulates load
 * Tracks latency, RPS, and failures
 
 ---
 
-## 📊 Evaluation Metrics Used
+## Evaluation Metrics Used
 
 In the `notebook/cifar10_model_dev.ipynb`:
 
@@ -120,7 +120,7 @@ In the `notebook/cifar10_model_dev.ipynb`:
 
 ---
 
-## 🔐 Deployment
+## Deployment
 
 * Backend (FastAPI) hosted locally/cloud
 * Frontend (Next.js) deployed on Vercel
@@ -128,21 +128,21 @@ In the `notebook/cifar10_model_dev.ipynb`:
 
 ---
 
-## 📹 Video Demo (Link)
+## Video Demo (Link)
 
-📺 https://youtu.be/ebuoJ0lXmtA
+https://youtu.be/ebuoJ0lXmtA
 
 ---
 
-## 🔗 Links
+## Links
 
-* 🌐 App: [https://lesly-image-classifier-5b56.vercel.app](https://lesly-image-classifier-5b56.vercel.app)
+* App: [https://lesly-image-classifier-5b56.vercel.app](https://lesly-image-classifier-5b56.vercel.app)
 * Api : [https://cifar10-image-classifier-4.onrender.com](https://cifar10-image-classifier-4.onrender/docs.com)
-* 📂 GitHub: [https://github.com/Leslyndizeye/cifar10-image-classifier](https://github.com/Leslyndizeye/cifar10-image-classifier)
+* GitHub: [https://github.com/Leslyndizeye/cifar10-image-classifier](https://github.com/Leslyndizeye/cifar10-image-classifier)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * TensorFlow & Keras
 * FastAPI
