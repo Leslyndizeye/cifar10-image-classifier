@@ -33,7 +33,7 @@ lesly-cifar10-image-classifier/
 
 ---
 
-## How to Set Up
+## Set Up
 
 ### 1. Clone the Repository
 
